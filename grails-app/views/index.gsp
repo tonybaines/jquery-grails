@@ -15,7 +15,9 @@
 	            <h1>Home on the range</h1>
 	        </div>
 	        <div id="Tab2">
-	            <h1>22222222222222222222222222222</h1>
+			    <!-- Ajax call here -->
+				<g:remoteLink controller="data" action="list" update="cats">Load data</g:remoteLink>
+  			    <div id="cats">Please click on the link to load data</div>
 	        </div>
 	    </div>
     </body>
